@@ -12,3 +12,76 @@
   left: 116px;
   border-radius: 10px 10px; /*gives image rounded edge*/
 }
+
+.header > h1{
+  color: darksalmon;
+  font-size: 30px;
+  margin-top: 9px;
+}
+
+.header > h3{
+  color :beige;
+  margin-bottom: 8px;
+}
+.header > p{
+  color: beige;
+  margin-top: 2px;
+}
+
+.button{
+  display:flex;
+  justify-content: center; 
+}
+
+.buttonleft{
+  background: white; /* color of button*/
+  color: black; /* color of text */
+  width: 115px;
+  height: 34px;
+  border: 1px solid #D1D5DB;
+  border-radius: 30px;
+}
+
+.buttonright{
+  background: blue;
+  color: white;
+  width: 115px;
+  height: 34px;
+  margin-left: 17px;
+  border: 1px solid blue;
+  border-radius: 30px
+}
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  
+}
+.main > h3{
+  margin-top: 15px;
+  
+}
+.main > p{
+  line-height: 1.3;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.footer{
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer >a > img{
+  margin-right: 20px;
+}
