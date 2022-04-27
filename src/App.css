@@ -58,6 +58,8 @@
   flex-direction: column;
   color: white;
   align-items: center;
+  min-height: 100vh;
+
   
 }
 .main > h3{
@@ -71,17 +73,21 @@
 }
 
 .footer{
+ 
+  
   height: 64px;
   left: 116px;
-  top: 760px;
   background: #161619;
   border-radius: 0px 0px 10px 10px;
-  margin-top: 30px;
+  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: auto;
+ 
 }
 
 .footer >a > img{
   margin-right: 20px;
+  
 }
